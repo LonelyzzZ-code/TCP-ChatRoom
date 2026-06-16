@@ -1,0 +1,18 @@
+# ===== 运行环境要求 =====
+# JDK 8 及以上（使用了 Lambda 表达式，需 JDK 8+）
+# 推荐：JDK 8 / JDK 11 / JDK 17
+
+# ===== 依赖说明 =====
+# 本项目零外部依赖，仅使用 Java 标准库：
+#   java.net   — TCP 网络通信（ServerSocket / Socket）
+#   javax.swing — GUI 界面（JFrame / JTextArea / JTextField）
+#   java.io    — IO 流读写（BufferedReader / PrintWriter）
+
+# ===== 编译 & 运行 =====
+# 编译：
+#   javac -encoding UTF-8 src/server/ChatServer.java -d out
+#   javac -encoding UTF-8 src/client/ChatClient.java -d out
+#
+# 运行（先启动服务端，再启动客户端）：
+#   java -cp out server.ChatServer
+#   java -cp out client.ChatClient
