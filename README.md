@@ -83,4 +83,4 @@ java -cp out client.ChatClient
 
 ## 许可证
 
-仅供学习使用。
+仅供学习和练习使用。
